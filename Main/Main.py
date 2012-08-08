@@ -34,15 +34,21 @@ if LanInp == 'EN':
     except IOError:
         print 'NO LIBRARY FOUND'
         dldInp = raw_input('WOULD YOU LIKE TO DOWNLOAD THE ENGLISH ONE(y/n)')
-        while dldInp == '':
+        cont = False
+        while cont != True:
             if dldInp == 'y':
+                print "Downloading ENlib.csv"
                 libfile = urllib2.urlopen('http://ultrazoidserver.x10.mx/klapperen/library/ENlib.csv')
                 output = open('ENlib.csv','w')
                 output.write(libfile.read())
                 output.close
+                time.sleep(2)
+                print 'Downloaded'                
+                cont = True
             elif dldInp == 'n':
                 #TO DO: Add program end statement
                 a=1
+                cont = True
             elif dldInp != 'y' or dldInp != 'n':
                 print 'PLEASE ENTER A VALID RESPONSE.'
                 dldInp = raw_input('WOULD YOU LIKE TO DOWNLOAD THE ENGLISH ONE(y/n)')
