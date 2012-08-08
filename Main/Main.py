@@ -34,6 +34,8 @@ if LanInp == 'EN':
         print sGreetings
         print questions
         print stalls
+        print 'SUCCESSFUL'
+        os.system('PAUSE')
     except IOError:
         print 'NO LIBRARY FOUND'
         dldInp = raw_input('WOULD YOU LIKE TO DOWNLOAD THE ENGLISH ONE(y/n)')
@@ -64,6 +66,8 @@ if LanInp == 'EN':
             print sGreetings
             print questions
             print stalls
+            print 'SUCCESSFUL'
+            os.system('PAUSE')
         except IOError:
             print 'FATAL ERROR ENCOUNTER'
             print 'PROGRAM WILL NOW SHUT DOWN'
