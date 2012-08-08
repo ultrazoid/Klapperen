@@ -34,6 +34,7 @@ if LanInp == 'EN':
         print sGreetings
         print questions
         print stalls
+        print '\n'
         print 'SUCCESSFUL'
         os.system('PAUSE')
     except IOError:
@@ -66,6 +67,7 @@ if LanInp == 'EN':
             print sGreetings
             print questions
             print stalls
+            print '\n'
             print 'SUCCESSFUL'
             os.system('PAUSE')
         except IOError:
