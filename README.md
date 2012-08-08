@@ -19,4 +19,8 @@ Klapperen
 For more info please check the <a href = "https://github.com/ultrazoid/Klapperen/blob/master/ChangeLog.md">Change Log</a><br>
 <ul>
 <li>(CODE) dev 1</li>
+<ul>
+<li>(CODE) dev 1.1</li>
+<li>(CODE) dev 1.2</li>
+</ul>
 </ul>
