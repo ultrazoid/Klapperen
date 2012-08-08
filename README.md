@@ -13,8 +13,9 @@ Klapperen
 </ul>
 
 <h2>Current Known Issues and Solutions:</h2>
-<b>WOO!</b> There are currently no KNOWN issues. If you have an issue please post it under the issues tab.
-
+<!--<b>WOO!</b> There are currently no KNOWN issues. If you have an issue please post it under the issues tab.-->
+<ul>
+<li>Program closes after downloading library</li>
 <h2>Version List</h2>
 For more info please check the <a href = "https://github.com/ultrazoid/Klapperen/blob/master/ChangeLog.md">Change Log</a><br>
 <ul>
