@@ -1,4 +1,10 @@
 Change Log
 ==========
 For detailed changes please check the description of each commit<br>
-Please check back later when Klapperen is released<br>
+<ul>
+<li>(CODE) dev 1
+<ul>
+<li>Initial version</li>
+</ul>
+</li>
+</ul>
