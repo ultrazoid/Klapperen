@@ -4,7 +4,7 @@ Klapperen
 <h3>Light weight text based chatbot by ultrazoid_</h3>
 <br>
 <b>Current Version:</b> (CODE) dev 1.3<br>
-<b>Contact:</b> <a href="mailto:esssper@ess.dudmail.com">Mail</a>
+<b>Contact:</b> <a href="mailto:essper@ess.dudmail.com">Mail</a>
 <h2>News</h2>
 <ul>
 <li>If there are any people who are looking at collaborating with me on this could they please contact me.</li>
