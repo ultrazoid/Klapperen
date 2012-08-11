@@ -4,6 +4,7 @@ Created on 28/06/2012
 @author: ultrazoid_
 
 Klapperen Chatbot
+Version (CODE) dev 1.3
 '''
 import string
 import time
