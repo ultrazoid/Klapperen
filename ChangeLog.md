@@ -20,5 +20,6 @@ For detailed changes please check the description of each commit<br>
 <ul>
 <li>Added indicator to show the program worked (0fd44666f7)</li>
 <li>Cleaned the output up with LINE BREAKS</li>
+<li>Added update system for ENlib.csv</li>
 </ul>
 </ul>
