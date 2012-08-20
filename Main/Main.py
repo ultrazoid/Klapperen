@@ -39,7 +39,7 @@ if LanInp == 'EN':
         sGreetings = Functions.listGet(2,'EN')
         questions = Functions.listGet(3,'EN')
         stalls = Functions.listGet(4,'EN')
-        print "SUCCESS"
+        print "Library loaded!"
         raw_input("Press enter to continue...")
         lib = True
     except IOError:
@@ -50,11 +50,29 @@ if LanInp == 'EN':
             sGreetings = Functions.listGet(2,'EN')
             questions = Functions.listGet(3,'EN')
             stalls = Functions.listGet(4,'EN')
-            print "SUCCESS"
+            print "Library loaded!"
             raw_input("Press enter to continue...")
             lib = True
         except IOError:
             print 'FATAL ERROR ENCOUNTED'
             print 'PROGRAM WILL NOW SHUT DOWN'
             raw_input("Press enter to continue...")
+    red = raw_input("Would you like to begin now(y/n)?")
+    cont = False
+    while cont == False:
+        if red == 'y':
+            print "Klapperen will now initiate"
+            time.sleep(1)
+            cont = True
+        elif red == 'n':
+            print "Klapperen will now exit"
+            time.sleep(1)
+            os.sys.exit()
+        else:
+            print 'Please enter a valid value'
+            red = raw_input("Would you like to begin now(y/n)?")
+    print "\nWelcome to Klapperen"
+    print "Version",verPN
+    print "By ultrazoid_"
+    raw_input("Press enter to begin chat(Chat sequence not complete)")
                 
