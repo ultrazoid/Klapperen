@@ -22,4 +22,12 @@ For detailed changes please check the description of each commit<br>
 <li>Cleaned the output up with LINE BREAKS</li>
 <li>Added update system for ENlib.csv</li>
 </ul>
+<li>(CODE) dev 1.4</li>
+<ul>
+<li>Bug fixes</li>
+</ul
+<li>(CODE) dev 1.5</li>
+<ul>
+<li>Began working on actual chat section</li>
+<li>Started working on saving log system(THERE ARE BUGS WITH THIS)</li>
 </ul>
