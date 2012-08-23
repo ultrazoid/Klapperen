@@ -42,6 +42,8 @@ if LanInp == 'EN':
         sGreetings = Functions.listGet(2,'EN')
         questions = Functions.listGet(3,'EN')
         stalls = Functions.listGet(4,'EN')
+        sReplies = Functions.listGet(5, 'EN')
+        ssReplies = Functions.listGet(6, 'EN')
         print "Library loaded!"
         raw_input("Press enter to continue...")
         lib = True
@@ -53,6 +55,8 @@ if LanInp == 'EN':
             sGreetings = Functions.listGet(2,'EN')
             questions = Functions.listGet(3,'EN')
             stalls = Functions.listGet(4,'EN')
+            sReplies = Functions.listGet(5, 'EN')
+            ssReplies = Functions.listGet(6, 'EN')
             print "Library loaded!"
             raw_input("Press enter to continue...")
             lib = True
@@ -69,7 +73,7 @@ if LanInp == 'EN':
             cont = True
         elif red == 'n':
             print "Klapperen will now exit"
-            time.sleep(1)
+            time.sleep(2)
             os.sys.exit()
         else:
             print 'Please enter a valid value'
@@ -91,13 +95,29 @@ if LanInp == 'EN':
             klp = k+sGreetings[random.randrange(0,len(sGreetings))]
             Functions.logWrite(lfd,klp)
             print klp
+        elif en_inp in farewells:
+            klp = k+farewells[random.randrange(0,len(farewells))]
+            Functions.logWrite(lfd,klp)
+            print klp
+            lin = s+"IF YOU WOULD LIKE TO EXIT PLEASE TYPE END"
+            Functions.logWrite(lfd,lin)
+            print lin
+        elif en_inp in sGreetings:
+            klp = k+sReplies[random.randrange(0,len(sReplies))]
+            Functions.logWrite(lfd,klp)
+            print klp
+            klp = k+ssReplies[random.randrange(0,len(ssReplies))]
+            Functions.logWrite(lfd,klp)
+            print klp
         else:
             klp = k+stalls[random.randrange(0,len(stalls))]
             Functions.logWrite(lfd,klp)
             print klp
         en_inp = string.lower(raw_input('RESPONSE: '))
+        en_wr = y+en_inp
     klp = k+farewells[random.randrange(0,len(farewells))]
     Functions.logWrite(lfd,klp)
+    print klp
     print s+'ENDING'
     lin = s+'USER TERMINATED CONVERSTATION'
     Functions.logWrite(lfd,lin)
