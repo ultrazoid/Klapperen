@@ -37,10 +37,8 @@ def logMakeEN(lfd, verP, verN):
     
 def logWrite(logname, value):
     filename = logname+'.txt'
-    logOpen = open(filename, 'r+')
-    sek = len(logOpen.read())
-    logOpen.seek(sek)
-    logOpen.write('\n')
+    logOpen = open(filename, 'a')
+    logOpen.seek(2)
     logOpen.write(value+'\n')
     logOpen.close()
 
