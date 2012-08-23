@@ -3,7 +3,7 @@ Klapperen
 
 <h3>Light weight text based chatbot by ultrazoid_</h3>
 <br>
-<b>Current Version:</b> (CODE) dev 1.3<br>
+<b>Current Version:</b> (CODE) dev 1.5<br>
 <b>Contact:</b> <a href="mailto:essper@ess.dudmail.com">Mail</a>
 <h2>News</h2>
 <ul>
@@ -24,5 +24,7 @@ For more info please check the <a href = "https://github.com/ultrazoid/Klapperen
 <li>(CODE) dev 1.1</li>
 <li>(CODE) dev 1.2</li>
 <li>(CODE) dev 1.3</li>
+<li>(CODE) dev 1.4</li>
+<li>(CODE) dev 1.5</li>
 </ul>
 </ul>
