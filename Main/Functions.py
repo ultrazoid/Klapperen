@@ -36,8 +36,13 @@ def logMakeEN(lfd, verP, verN):
     lfo.close()
     
 def logWrite(logname, value):
-    filename = logname+'txt'
-    logOpen = open(filename, 'w')
+    filename = logname+'.txt'
+    logOpen = open(filename, 'r+')
+    sek = len(logOpen.read())
+    logOpen.seek(sek)
+    logOpen.write('\n')
+    logOpen.write(value+'\n')
+    logOpen.close()
 
 def verUpd(info):
     try:
@@ -90,7 +95,7 @@ def logUpd(lang, info):
         while cont != True:
             if libUp == 'y':
                 os.remove(lang+'lib.csv')
-                urllib.urlretrieve('http://ultrazoidserver.x10.mx/klapperen/library/langlib.csv',lang+'lib.csv')
+                urllib.urlretrieve('http://ultrazoidserver.x10.mx/klapperen/library/'+lang+'lib.csv',lang+'lib.csv')
                 os.remove('Version.txt')
                 urllib.urlretrieve('http://ultrazoidserver.x10.mx/klapperen/version.txt',info["verIN"])
                 print "UPDATE FINISHED"
