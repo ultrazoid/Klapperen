@@ -39,7 +39,7 @@ while cont == False:
     elif LanInp != 'EN':
         cont = False
         print "Language unavailable"
-        print "Currently only "+info["Av"]+" are available"
+        print "Currently only "+info["Av"]+" is available"
         print "Please try again!"
     lanInt = raw_input('Please select a language(EN):')
     LanInp = string.upper(lanInt)
