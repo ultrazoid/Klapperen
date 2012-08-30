@@ -1,10 +1,14 @@
 '''
+Klapperen Chatbot
+Version (CODE) dev 1.6
+
+Non language specific Functions
+
 Created on 28/06/2012
 
 @author: ultrazoid_
 '''
 import string
-import datetime
 import os
 import urllib
 import time
@@ -107,5 +111,5 @@ def logUpd(lang, info):
             elif libUp != 'y' or libUp != 'n':
                 print "Please enter a valid response:"
     elif info["verLN"] == info["verL"]:
-        print "No update needed langlib.csv is up to date"
+        print "No update needed "+lang+"lib.csv is up to date"
         raw_input("Press enter to continue...")
