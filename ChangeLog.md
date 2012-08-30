@@ -1,6 +1,5 @@
 Change Log
 ==========
-For detailed changes please check the description of each commit<br>
 <ul>
 <li>(CODE) dev 1</li>
 <ul>
@@ -34,5 +33,7 @@ For detailed changes please check the description of each commit<br>
 <li>(CODE) dev 1.6</li>
 <ul>
 <li>Moved stuff around</li>
+<li>GRAMMAR!</li>
+<li>Added catch for non supported language</li>
 </ul>
 </ul>
