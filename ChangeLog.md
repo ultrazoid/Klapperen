@@ -29,5 +29,5 @@ For detailed changes please check the description of each commit<br>
 <li>(CODE) dev 1.5</li>
 <ul>
 <li>Began working on actual chat section</li>
-<li>Started working on saving log system(THERE ARE BUGS WITH THIS)</li>
+<li>Working saving log system</li>
 </ul>
