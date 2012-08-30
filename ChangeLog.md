@@ -31,3 +31,8 @@ For detailed changes please check the description of each commit<br>
 <li>Began working on actual chat section</li>
 <li>Working saving log system</li>
 </ul>
+<li>(CODE) dev 1.6</li>
+<ul>
+<li>Moved stuff around</li>
+</ul>
+</ul>
