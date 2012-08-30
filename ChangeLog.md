@@ -25,7 +25,7 @@ For detailed changes please check the description of each commit<br>
 <li>(CODE) dev 1.4</li>
 <ul>
 <li>Bug fixes</li>
-</ul
+</ul>
 <li>(CODE) dev 1.5</li>
 <ul>
 <li>Began working on actual chat section</li>
