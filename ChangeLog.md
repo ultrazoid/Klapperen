@@ -35,5 +35,6 @@ Change Log
 <li>Moved stuff around</li>
 <li>GRAMMAR!</li>
 <li>Added catch for non supported language</li>
+<li>Pre language select exit possible</li>
 </ul>
 </ul>
