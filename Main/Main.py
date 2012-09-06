@@ -22,7 +22,7 @@ info = {"Name":"Klapperen","Version":verPN,"verIN":"Version.txt","verL":"1","ver
 k = "KLP: "
 y = "YOU: "
 s = "SYS: "
-
+#this is a random comment line
 Functions.verUpd(info)
 
 now = datetime.datetime.now()
@@ -37,6 +37,7 @@ while cont == False:
     if LanInp == 'EN':
         cont = True
         english.main(lfd, verP, verNu, info, verPN, k, s, y)
+        break
     elif LanInp == "END" or LanInp == "EXIT":
         print 'END/EXIT CODE RECOGNISED'
         time.sleep(1)
