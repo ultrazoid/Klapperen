@@ -10,7 +10,7 @@ Klapperen
 <li>If there are any people who are looking at collaborating with me on this could they please contact me.</li>
 <li>I am currently looking for people to create the tranlations of the responses once the std library has been made this will be in <code> *.csv </code> format</li>
 <li>I am also looking for ideas for responses etc. to include in the library</li>
-<li>The current English Library can be found <a href="http://ultrazoidserver.x10.mx/klapperen/library/ENlib.csv?dl">here.</a>
+<li>Currently the library is being migrated to a new home. Please stay tuned</li>
 </ul>
 
 <h2>Current Known Issues and Solutions:</h2>
