@@ -7,6 +7,7 @@ Klapperen
 <b>Contact:</b> <a href="mailto:essper@ess.dudmail.com">Mail</a>
 <h2>News</h2>
 <ul>
+<li>Klapperen is currently being rebuilt to use a new library system that is more extensive, and will contain a learning system</li>
 <li>If there are any people who are looking at collaborating with me on this could they please contact me.</li>
 <li>I am currently looking for people to create the tranlations of the responses once the std library has been made this will be in <code> *.csv </code> format</li>
 <li>I am also looking for ideas for responses etc. to include in the library</li>
